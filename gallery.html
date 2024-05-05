@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixels Art</title>
+    <link rel="stylesheet" href="styles 2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome for icons -->
+<head>
+    <style>
+        /* Page-specific Styles */
+        .content {
+            padding: 50px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #E71D36; /* Red color */
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 20px;
+            justify-items: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .item {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .item img, .item video {
+            width: 100%;
+            height: auto;
+        }
+
+        .description {
+            margin-top: 10px;
+            font-size: 1.1rem;
+            color: #333;
+        }
+    </style>
+    <header>
+        <div class="header-content">
+           <div class="logo">
+               <img src="WhatsApp Image 2024-04-29 at 15.44.57_cda5d3af.jpg" alt="Pixels Art Logo">
+            </div>
+            <h1>gallery  -Pixels Art</h1>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index 2.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="chat.html">chat with AI</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="content">
+            <h2>Explore Our Gallery</h2>
+            <div class="gallery">
+                <!-- Image 1 -->
+                <div class="item">
+                    <img src="image1.jpg" alt="Image 1">
+                    <p class="description">Description for Image 1</p>
+                </div>
+                <!-- Image 2 -->
+                <div class="item">
+                    <img src="image2.jpg" alt="Image 2">
+                    <p class="description">Description for Image 2</p>
+                </div>
+                <!-- Video 1 -->
+                <div class="item">
+                    <video controls src="robot design 1.mp4" type="video/mp4">
+                       
+                        
+                    </video>
+                    <p class="description">Description for Video 1</p>
+                </div>
+                
+                <!-- Video 2 -->
+                <div class="item">
+                    <video controls>
+                        <source src="video2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p class="description">Description for Video 2</p>
+                </div>
+                <!-- Add more images and videos with descriptions as needed -->
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Pixels Art</p>
+    </footer>
+</body>
+</html>
